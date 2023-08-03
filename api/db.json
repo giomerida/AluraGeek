@@ -1,0 +1,134 @@
+{
+  "products": [
+    {
+      "name": "Play Station 5",
+      "imagenURL": "https://exitocol.vtexassets.com/arquivos/ids/9154827-800-auto?v=637631028231230000&width=800&height=auto&aspect=true",
+      "price": "3000000",
+      "id": 1,
+      "reference": "#CO001",
+      "category": "consoles"
+    },
+    {
+      "name": "Nintendo Switch",
+      "imagenURL": "https://exitocol.vtexassets.com/arquivos/ids/2458637/consola-nintendo-switch-neon-joycon-nueva-version-2019.jpg?v=637298193778300000",
+      "price": "1500000",
+      "id": 2,
+      "reference": "#CO002",
+      "category": "consoles"
+    },
+    {
+      "name": "Nintendo DS Lite",
+      "imagenURL": "https://static.wikia.nocookie.net/nintendods/images/c/c1/Nintendo_DS_Lite.png/revision/latest?cb=20081006170425&path-prefix=es",
+      "price": "1800000",
+      "id": 3,
+      "reference": "#CO003",
+      "category": "consoles"
+    },
+    {
+      "id": 4,
+      "imagenURL": "https://www.primecomics.com.co/images/feature_variant/3/pikachu.jpg",
+      "category": "consoles",
+      "name": "Consola Clásica Nintendo",
+      "description": "Es una imagen de pikachu muy bonita",
+      "price": "600000",
+      "reference": "#CO004"
+    },
+    {
+      "name": "Zelda",
+      "imagenURL": "https://m.media-amazon.com/images/I/91O9Uk5oWAL._AC_UF894,1000_QL80_.jpg",
+      "price": "250000",
+      "id": 5,
+      "reference": "#GM001",
+      "category": "games"
+    },
+    {
+      "name": "Naruto Storm",
+      "imagenURL": "https://http2.mlstatic.com/D_NQ_NP_723425-MCO69892794647_062023-O.webp",
+      "price": "200000",
+      "id": 6,
+      "reference": "#GM002",
+      "category": "games"
+    },
+    {
+      "name": "FIFA 2023",
+      "imagenURL": "https://elcomercio.pe/resizer/-R1I4kTPXYeqw1EipbfzuZBOXFw=/620x0/smart/filters:format(jpeg):quality(75)/cloudfront-us-east-1.images.arcpublishing.com/elcomercio/7ELWVFR2UNF43ELZNS23GKKYM4.jpeg",
+      "price": "350000",
+      "id": 7,
+      "reference": "#GM003",
+      "category": "games"
+    },
+    {
+      "name": "Super Mario Bros",
+      "imagenURL": "https://static.wikia.nocookie.net/mario/images/e/e0/30287-super-mario-bros-nes-front-cover.jpg/revision/latest?cb=20180422054516&path-prefix=es",
+      "price": "250000",
+      "id": 8,
+      "reference": "#GM004",
+      "category": "games"
+    },
+    {
+      "name": "Sable de Luz",
+      "imagenURL": "https://m.media-amazon.com/images/I/51-ApLVr4CL._AC_UF894,1000_QL80_.jpg",
+      "price": "400000",
+      "id": 9,
+      "reference": "#SW001",
+      "category": "star-wars"
+    },
+    {
+      "name": "Baby Yoda",
+      "imagenURL": "https://http2.mlstatic.com/D_NQ_NP_814335-MLA52222806687_102022-O.webp",
+      "price": "380000",
+      "id": 10,
+      "reference": "#SW002",
+      "category": "star-wars"
+    },
+    {
+      "name": "Dark Vader",
+      "imagenURL": "https://barkbox-marketing-campaigns.s3.amazonaws.com/themes/Star%20Wars/ObeyYourMaster.png",
+      "price": "130000",
+      "id": 11,
+      "reference": "#SW003",
+      "category": "star-wars"
+    },
+    {
+      "name": "Soldados",
+      "imagenURL": "https://api.time.com/wp-content/uploads/2015/09/star-wars-black-toys-stormtrooper.jpg",
+      "price": "80000",
+      "id": 12,
+      "reference": "#SW004",
+      "category": "star-wars"
+    },
+    {
+      "name": "Capitán América",
+      "imagenURL": "https://toysmart.co/cdn/shop/products/97179_400x.jpg?v=1614206598",
+      "price": "65000",
+      "id": 13,
+      "reference": "#OT001",
+      "category": "other"
+    },
+    {
+      "name": "Esferas del Dragón",
+      "imagenURL": "https://i.linio.com/p/1416d9026d0119d90eeb0317ac756ddd-product.jpg",
+      "price": "315000",
+      "id": 14,
+      "reference": "#OT002",
+      "category": "other"
+    },
+    {
+      "name": "Pikachu",
+      "imagenURL": "https://www.nintenderos.com/wp-content/uploads/2021/08/E9AN11yXMAUePVk-Cropped.jpg",
+      "price": "54000",
+      "id": 15,
+      "reference": "#OT003",
+      "category": "other"
+    },
+    {
+      "name": "Naruto",
+      "imagenURL": "https://mythsupplies.com/upload/productos/202106291221215-naruto1.jpg",
+      "price": "85000",
+      "id": 16,
+      "reference": "#OT004",
+      "category": "other"
+    }
+    
+  ]
+}

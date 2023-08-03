@@ -1,0 +1,91 @@
+.loging{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+    background-color: #f5f5f5;
+    padding: 60px 0;
+}
+
+.loging.admin{
+    padding: 0;
+}
+
+.loging__title{
+    color: #464646;
+    font-size: 16px;
+    font-weight: bolder;
+}
+
+.loging__title.admin__products__title{
+    font-size: 22px;
+    font-weight: bolder;
+    margin-bottom: 0;
+    width: 90%;
+}
+
+.loging__form{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    gap: 16px;
+}
+
+.loging__email{
+    height: 41px;
+    border: none;
+    border-radius: 5px;
+}
+
+.loging__email::placeholder{
+    align-content: center;
+    padding-left: 6px;
+    font-size: 16px;
+    color: #a2a2a2;
+}
+
+.loging__password{
+    height: 41px;
+    border: none;
+    border-radius: 5px;
+}
+
+.loging__password::placeholder{
+    align-content: center;
+    padding-left: 6px;
+    font-size: 16px;
+    color: #a2a2a2;
+}
+
+.loging__send{
+    align-self: center;
+}
+
+.btn.button__loging{
+    padding: 0 30px;
+}
+
+.loging__error {
+    color: red
+}
+
+@media screen and (min-width: 768px) {
+
+    .loging__form{
+        width: 30%;
+
+    }
+
+    .loging__title.admin__products__title{
+        padding-top: 20px;
+    } 
+}
+
+@media screen and (min-width: 1024px) {
+    
+    .loging__title.admin__products__title{
+        width: 50%;
+    }
+
+}

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AluraGeek</title>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <script defer src="https://use.fontawesome.com/releases/v5.15.4/js/all.js" integrity="sha384-rOA1PnstxnOBLzCLMcre8ybwbTmemjzdNlILg8O7z1lUkLXozs4DHonlDtnE7fpc" crossorigin="anonymous"></script>
+    <link href="../assets/css/global.css" rel="stylesheet">
+    <link href="../assets/css/forms/buttons.css" rel="stylesheet">
+    <link href="../assets/css/forms/form.css" rel="stylesheet">
+    <link href="../assets/css/nav/logo.css" rel="stylesheet">
+    <link href="../assets/css/nav/nav__bar.css" rel="stylesheet">
+    <link href="../assets/css/nav/search.css" rel="stylesheet">
+    <link href="../assets/css/welcome/banner.css" rel="stylesheet">
+    <link href="../assets/css/welcome/products.css" rel="stylesheet">
+    <link href="../assets/css/welcome/contact.css" rel="stylesheet">
+    <link href="../assets/css/welcome/footer.css" rel="stylesheet">
+
+</head>
+<body>
+    <section class="nav__bar">
+        <a href="../index.html">
+            <img class="logo" src="../assets/img/logo_alurageek.png" alt="logo">
+        </a>
+       <div class="nav__bar__content">
+            <div class="search">
+                <input class="search__products" type="text" name="search_products" placeholder="¿Qué deseas buscar?">
+                <button class="search__button" name="search__button">
+                    <em class="fas fa-search search__icon"></em>
+                </button>
+            </div>
+            <button type="button" name="logout" class="btn outline" onclick="logout()">Cerrar sesión</button>
+       </div>
+    </section>
+    <main>
+        <section class="products">
+            <div class="products__category products__administrator">
+                <h2 class="products__category__header">Todos los productos</h2>
+                <a class="btn" name="button__banner" href="./products.form.html">Agregar producto</a>
+            </div>
+            <div class="products__content" data-products></div>
+        </section>
+        <div class="contact">
+            <div class="contact__menu">
+                <img class="logo contact__logo" src="../assets/img/logo_alurageek.png" alt="logo"/>
+                <ul class="contact__list">
+                    <li>Quienes somos</li>
+                    <li>Política de privacidad</li>
+                    <li>Programa de fidelidad</li>
+                    <li>Nuestras tiendas</li>
+                    <li>Quiero ser franquiciado</li>
+                    <li>Anúncie aquí</li>                   
+                </ul>
+            </div>
+            <div class="contact__content">
+                <h3 class="contact__invitation">Hable con nosotros</h3>
+                <form class="contact__form">
+                    <div class="contact__name__content">
+                        <label class="contact__name__title" for="contact__name">Nombre</label>
+                        <input class="contact__name" type="text" name="contact__name">
+                    </div>
+                    <input class="contact__message" type="text" name="contact__message" placeholder="Escribe tu mensaje">
+                    <div>
+                        <button class="btn button__contact" name="button__banner">Enviar mensaje</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </main>
+    <footer class="footer">
+        <p class="footer__owner">Realizado por Giovanni Mérida</p>
+        <span class="year">2023</span>
+    </footer>
+    
+    <script src="../domain/app.js"></script>
+    <script type="module" src="../domain/controller/products/index-controller.js"></script>
+</body>
+</html>

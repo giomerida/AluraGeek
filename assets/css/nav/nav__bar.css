@@ -1,0 +1,21 @@
+.nav__bar{
+    height: 115px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 4%;
+}
+
+.nav__bar__content{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+    .nav__bar__content{
+        flex-direction: row;
+    }
+}

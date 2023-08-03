@@ -1,0 +1,51 @@
+.banner{
+    width: 100%;
+    background-image: url(../../img/Hero.png);
+    height: 192px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+}
+
+.banner__content{
+    backdrop-filter: blur(2px);
+    background-color: #5c5c5c4d;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    color: white;
+    padding: 4%;
+    gap: 12px;
+}
+
+.banner__title{
+    font-size: 22px;
+    margin: 0;
+    font-weight: bolder;
+}
+
+.banner__text{
+    margin: 0;
+}
+
+@media screen and (min-width: 768px) {
+    .banner{
+        height: 352px;
+    }
+
+    .banner__title{
+        font-size: 52px;
+    }
+
+    .banner__text{
+        font-size: 22px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .banner__content{
+        padding: 4% 10%;
+    }
+    
+}

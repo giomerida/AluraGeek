@@ -1,0 +1,166 @@
+.contact{
+    background-color: #eaf2fd;
+    display:grid;
+    grid-template-columns: repeat(1, 1fr);
+    padding: 4%;
+}
+
+.contact__menu{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.contact__logo{
+    margin: 0;
+    width: 40%;
+    height: 25%;
+}
+
+.contact__list {
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.contact__list > li {
+    display: block;
+    transition: transform 250ms ease-out;
+
+    &:hover {
+        cursor: pointer;
+        text-decoration: underline;
+        transform: scale(1.05);
+    }
+}
+
+.contact__content{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 3%;
+    justify-items: left;
+    align-items: center;
+    text-align: left;
+}
+
+.contact__invitation{
+    font-size: 16px;
+    color: #464646;
+    margin: 0;
+    padding-top: 10px;
+}
+
+.contact__form{
+    width: 100%;
+}
+
+.contact__form.admin__form{
+    width: 90%;
+}
+
+.contact__name__content{
+    height: 56px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+.contact__name__title{
+    border: none;
+    background: transparent;
+    font-size: 12px;
+    color: #a2a2a2;
+    padding: 5px 5px;
+}
+
+.contact__name{
+    border: none;
+    background-color:transparent;
+    padding: 5px 5px;
+}
+
+.contact__name:focus{
+    outline: none;
+}
+
+.contact__message{
+    height: 82px;
+    border: none;
+    margin-bottom: 8px;
+    width: 100%;
+}
+
+.contact__message:focus{
+    outline: none;
+}
+
+.contact__message.description__producto__admin{
+    margin-bottom: 0;
+}
+
+.button__contact{
+    margin-bottom: 5px;
+}
+
+@media screen and (min-width: 768px) {
+    .contact{
+        grid-template-columns: 35% 65%;
+    }
+
+    .contact__logo{
+        height: 100%;
+    }
+
+    .contact__menu{
+        justify-items: left;
+        text-align: left;
+    }
+
+    .contact__content{
+        justify-items: left;
+        align-items:start;
+        text-align: left;
+        display: flex;
+        flex-direction: column;
+    }
+
+}
+
+@media screen and (min-width: 1024px) {
+    .contact{
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .contact__menu{
+        grid-template-columns: repeat(2, 1fr);
+        justify-items: left;
+        align-items:start;
+    }
+
+    .contact__logo{
+        justify-self: center;
+    }
+
+    .contact__content{
+        width: 90%
+        
+        ;
+    }
+    .contact__form.admin__form{
+        width: 50%;
+    }
+}
+
+@media screen and (min-width: 650px) {
+    .contact__logo{
+        justify-self: center;
+        height: 40%;
+        width: 60%;
+    }
+}
