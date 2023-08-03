@@ -1,6 +1,6 @@
-# JR-Store
+# AluraGeek
 
-_Este repositorio tiene como finalidad dar solución al reto propuesto por el curso de Frontend de Alura_
+_Challenge Frontend de Alura_
 
 ## Herramientas, Lenguajes y Estilos
 
@@ -20,6 +20,6 @@ JR store es una tienda de comics, videos juegos y consolas, amigable con el clie
 ## Endpoints
 
 * API: https://jr-store.onrender.com/
-* Front: https://jhonny1293.github.io/jr-store
+* Front: https://giomerida.github.io/Alurageek
 
 ## Muchas Gracias!
