@@ -20,6 +20,6 @@ JR store es una tienda de comics, videos juegos y consolas, amigable con el clie
 ## Endpoints
 
 * API: https://jr-store.onrender.com/
-* Front: https://giomerida.github.io/Alurageek
+* Front: https://giomerida.github.io/AluraGeek/
 
 ## Muchas Gracias!
