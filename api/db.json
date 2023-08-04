@@ -17,14 +17,6 @@
       "category": "consoles"
     },
     {
-      "name": "Nintendo DS Lite",
-      "imagenURL": "https://static.wikia.nocookie.net/nintendods/images/c/c1/Nintendo_DS_Lite.png/revision/latest?cb=20081006170425&path-prefix=es",
-      "price": "1800000",
-      "id": 3,
-      "reference": "#CO003",
-      "category": "consoles"
-    },
-    {
       "id": 4,
       "imagenURL": "https://www.primecomics.com.co/images/feature_variant/3/pikachu.jpg",
       "category": "consoles",
